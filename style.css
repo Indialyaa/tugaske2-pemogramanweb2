@@ -1,0 +1,246 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+body {
+    max-width: 1000px;
+    position: relative;
+    overflow-x: hidden;
+    margin: auto;
+    box-shadow: 0 0 20px #979797;
+}
+
+.container{
+    width: 100%;
+    margin: 20px auto;
+    padding: 3px 0 0 0;
+}
+
+.header{
+    margin: 20px;
+    opacity: .5;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.square{
+    width: 500px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10%;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #3684de;
+}
+
+.navbar a{
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 550;
+}
+
+.navbar a:hover{
+    background-color:#084d9c;
+}
+
+.hero{
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: justify;
+}
+
+.hero h1, p, button{
+    margin: 10px 0;
+}
+
+.hero button{
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: #3684de;
+    padding: 10px 20px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero button:hover{
+    background-color: #084d9c;
+    cursor: pointer;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.wrapper .main{
+    width: 70%;
+    margin: 20px;
+}
+
+.wrapper .main .cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.wrapper .main .cards .card{
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.wrapper .main .cards .card .card-content{
+    padding: 10px;
+}
+
+.wrapper .main .cards .card .card-content button{
+    height: 40px;
+    margin: 20px auto 0px auto;
+    color: white;
+    background-color: #3684de;
+    padding: 10px 20px;
+    border-radius: 4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.wrapper .main .cards .card .card-content button:hover{
+    background-color: #084d9c;
+    cursor: pointer;
+}
+
+.wrapper .sidebar{
+    width: 30%;
+    margin: 10px;
+}
+
+.wrapper .sidebar .link{
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .sidebar .link a{
+    border: 1px solid rgba(100, 100, 100, 0.479);
+    padding: 8px;
+    color: black;
+}
+
+.wrapper .sidebar .link a:hover{
+    background-color: #cecece;
+}
+
+.wrapper .sidebar .link h3{
+    padding: 10px;
+    color: white;
+    background-color: #3684de;    
+}
+
+.wrapper .sidebar .text {
+    padding: 10px 20px 20px 20px;
+}
+
+.wrapper .sidebar .text .coba{
+    background-color: aliceblue;
+    border: 1px solid rgba(100, 100, 100, 0.479);
+}
+
+.wrapper .sidebar .text .coba h3{
+    padding: 10px;
+    color: white;
+    background-color: #3684de;    
+}
+
+
+.wrapper .sidebar .text .coba p{ 
+    color: black;
+    padding: 0px 10px 10px 10px;
+}
+
+.wrapper .main .line{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #767676;
+    margin: 20px 0;
+}
+
+.wrapper .main div h3{
+    margin-bottom: 1px;
+}
+
+.wrapper .main .contents{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.wrapper .main .contents .content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: justify;
+}
+
+.wrapper .main .contents div .content{
+    padding: 5px;
+}
+
+.wrapper .main .contents div .content img{
+    margin: 10px 0;
+}
+
+footer{
+    background-color:  #3684de;
+    padding: 5px 20px;
+    color: white;
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover{
+    color: rgb(169, 219, 252);
+    cursor: pointer;
+}
+
+.label{
+    position: absolute;
+    opacity: .1;
+    bottom: 20%;
+    font-size: 64px;
+    left: 25%;
+    color: black;
+    text-align: center;
+}
