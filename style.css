@@ -48,7 +48,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
-    background-color: #3684de;
+    background-color: #666565;
 }
 
 .navbar a{
@@ -59,24 +59,23 @@ body {
 }
 
 .navbar a:hover{
-    background-color:#084d9c;
+    background-color:#666565;
 }
 
 .hero{
     padding: 20px;
-    background-color: aliceblue;
-    text-align: justify;
+    background-color: #666565;
 }
 
 .hero h1, p, button{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .hero button{
     height: 40px;
     margin-top: 20px;
     color: white;
-    background-color: #3684de;
+    background-color: #084d9c;
     padding: 10px 20px;
     border-radius: 5%;
     display: flex;
@@ -110,7 +109,7 @@ body {
 
 .wrapper .main .cards .card{
     padding: 20px;
-    background-color: aliceblue;
+    background-color: #666565;
     text-align: center;
 }
 
@@ -122,7 +121,7 @@ body {
     height: 40px;
     margin: 20px auto 0px auto;
     color: white;
-    background-color: #3684de;
+    background-color: #666565;
     padding: 10px 20px;
     border-radius: 4%;
     display: flex;
@@ -162,7 +161,7 @@ body {
 .wrapper .sidebar .link h3{
     padding: 10px;
     color: white;
-    background-color: #3684de;    
+    background-color: #666565;    
 }
 
 .wrapper .sidebar .text {
@@ -177,7 +176,7 @@ body {
 .wrapper .sidebar .text .coba h3{
     padding: 10px;
     color: white;
-    background-color: #3684de;    
+    background-color: #666565;    
 }
 
 
