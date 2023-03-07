@@ -1,4 +1,6 @@
-# tugaske2-pemogramanweb2
-![Screenshot (395)](https://user-images.githubusercontent.com/115305578/223461096-2d1b4a59-66ff-4f66-b180-a7ed00e95f62.pn
-jika anda mengeklik "learn more" pada hero atas maka akan menampilkan "tentang saya" seperti dibawah ini
-![Screenshot (390)](https://user-images.githubusercontent.com/115305578/223198354-c4b6d71a-1e52-4e76-acff-758c45c5e316.png)
+NAMA  : INDI ALYA PUTRI
+NIM : 312110137
+
+![Screenshot (395)](https://user-images.githubusercontent.com/115305578/223461816-a115e824-77ed-4a79-8c29-fff8434f7913.png)
+jika anda mengeklik "learn more" pada hero diatas maka akan menampilkan "tentang saya" seperti dibawah ini
+![Screenshot (390)](https://user-images.githubusercontent.com/115305578/223461877-6a3a9f4f-ebf9-4b30-8915-a6e24a1dbe9b.png)
